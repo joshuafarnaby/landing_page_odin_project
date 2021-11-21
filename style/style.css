@@ -158,6 +158,39 @@ button:hover {
   font-weight: 900;
 }
 
+.action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.action-card {
+  background-color: #3882f6;
+  width: 500px;
+  padding: 24px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-button {
+  background-color: #3882f6;
+  border: 1px #e5e7eb solid;
+}
+
+.action-text {
+  color: #e5e7eb;
+}
+
+.action-text h3 {
+  font-size: 14px;
+}
+
+.action-text p {
+  font-size: 12px;
+}
+
 footer {
   background-color: #1f2937;
   flex: 0 0 40px;
