@@ -109,7 +109,7 @@ button:hover {
 
 .random-info-container h2 {
   /* text-align: center; */
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 900;
   color: #1f2937;
   margin: 12px auto;
@@ -136,4 +136,24 @@ button:hover {
   border: 2px #3882f6 solid;
   border-radius: 5px;
   margin: 6px auto;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1f2937;
+}
+
+.quote {
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+  margin: 6px 0;
+}
+
+.quote-author {
+  font-weight: 900;
 }
