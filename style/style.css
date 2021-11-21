@@ -26,7 +26,7 @@ button {
 }
 
 img {
-  max-width: 300px;
+  max-width: 200px;
 }
 
 button {
@@ -41,8 +41,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
+  padding: 0 16px;
   background-color: #1f2937;
+  height: 25px;
   width: 100%;
 }
 
@@ -99,4 +100,40 @@ button:hover {
   border-radius: 5px;
   border: 7px #e5e7eb solid;
   margin: 6px 0;
+}
+
+.random-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.random-info-container h2 {
+  /* text-align: center; */
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 12px auto;
+}
+
+.random-info-container .card-container {
+  flex: 1 1 auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+}
+
+.card-container > * {
+  width: 120px;
+  text-align: center;
+}
+
+.card {
+  height: 120px;
+  width: 120px;
+  border: 2px #3882f6 solid;
+  border-radius: 5px;
+  margin: 6px auto;
 }
